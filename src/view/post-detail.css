@@ -1,0 +1,15 @@
+.markdown img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.markdown blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 10px;
+  border-left: 5px solid #66b97d;
+}

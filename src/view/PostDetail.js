@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react'
+import style from './post-detail.css'
 
 @observer(['PostDetailModel'])
 export default class PostDetail extends Component {
@@ -16,7 +17,7 @@ export default class PostDetail extends Component {
       <div>
         { loading ? <div>Loading...</div> : null }
         <h1>{ title }</h1>
-        <div dangerouslySetInnerHTML={{ __html: content }}></div>
+        <div className={ style.markdown } dangerouslySetInnerHTML={{ __html: content }}></div>
       </div>
     )
   }
