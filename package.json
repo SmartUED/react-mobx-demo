@@ -2,6 +2,7 @@
   "name": "react-mobx-demo",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://smartued.github.io/react-mobx-demo",
   "devDependencies": {
     "autoprefixer": "6.4.0",
     "babel-core": "6.14.0",
@@ -32,6 +33,7 @@
     "file-loader": "0.9.0",
     "filesize": "3.3.0",
     "fs-extra": "0.30.0",
+    "gh-pages": "^0.11.0",
     "gzip-size": "3.0.0",
     "html-webpack-plugin": "2.22.0",
     "http-proxy-middleware": "0.17.0",
@@ -60,7 +62,8 @@
   },
   "scripts": {
     "start": "node ./scripts/start.js",
-    "build": "node ./scripts/build.js"
+    "build": "node ./scripts/build.js",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "./config/eslint.js"
