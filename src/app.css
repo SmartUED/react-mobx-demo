@@ -1,0 +1,31 @@
+html,
+body {
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #ededed;
+}
+
+.header {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #3d3d3d;
+  color: white;
+}
+
+.content {
+  max-width: 900px;
+  min-height: calc(100vh - 100px);
+  margin: 0 auto;
+}
+
+.footer {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 12px;
+  background-color: #3d3d3d;
+  color: white;
+}
